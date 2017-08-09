@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<head><!-- 
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 		<title>Meet Me: Fiaalii</title>
 	</head>
 	<body>
-		<header class="mainHeaderStyle">
-			<div class="fullWrapper">
-				<div class="namePlate">Fiaalii "JT" Togiaso</div>
-				<ul class="siteLegend">
-					<li><a href="index.html">About</a></li>
-					&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-					<li><a href="portfolio.html">Portfolio</a></li>
-					&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</header>
-		<main class="mainBody">
-			<div class="fullWrapper">
-				<div class="contentWrapper">
-					<section class="mainContent"> 
-						<header class="mainContentHeader"> About Me </header>
-						<img class="profilePic" src="assets/images/Samoan_Athlete_FJT.JPG"/ alt="FJT">
-						<p class="bioText">
-						My very first video game was Shadow of the Colossus. A magnificent adventure that follows a nameless swordsman vying to ressurect his deceased love by embarking upon the impossible quest to slay 16 monster collosi. Captivated by the gripping story, the elegant beasts, and the grougeous landscape, I knew there had to be more that could offer this same realm of escape and thrill. 
-						<br/>
-						<br/>
-						Video gaming emerses users in impossible worlds, much better than any other medium available. Games like Assassin's Creed have brought historical events to the present and has given players the opportunity to experience first hand the thrills of many events. With this aspect in mind, I want to create a style of education that gears towards a regiment more suitable for us tactile/kinestetic learners. Taking this coding boot camp is the first step to cultivating/developing the skills that I need in order to achieve my dream. 
-						</p>
-					</section>
+		<div class="container">
+			<header class="row" style="border: 1px solid red; background: maroon">
+				<div class="col-md-4" style="border: 1px solid purple; background: orange">
+					<h1 class="jumbotron text-center">Fiaalii "JT" Togiaso
+					</h1>
 				</div>
-				<div class="asideWrapper">
-					<aside class="connectWithMe">
-						<header class="asideHeader"> Connect with Me </header>
-						<ul class="connectOptions">
-							<li>
-								<a href="https://github.com/jtogiaso" target="_blank">
-									<img src="assets/images/github_128.png" alt="Github"/>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/in/fiaalii-f-togiaso-24a579147/" target="-blank">
-									<img src="assets/images/linkedIn.png" alt="LinkedIn"/>
-								</a>
-							</li>
-							<li>
-								<a href="https://meta.stackoverflow.com/users/8351976/kitiona49" target="_blank">
-									<img src="assets/images/stackOverflow.png"/>
-								</a>
-							</li>
+				<div class="col-md-4" style="border: 1px solid purple; background: turquoise">
+				</div>
+				<div class="col-md-4" style="border: 1px solid purple; background: tan">
+					<nav role="navigation">
+						<ul class="nav nav-tabs">
+							<li role="presentation"><a href="index.html">About</a></li>
+					  		<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+					  		<li role="presentation"><a href="contact.html">Contact</a></li>
 						</ul>
+					</nav>
+				 </div>
+			</header>
+			<main class="row">
+				<section class="col-md-8">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="jumbotron"> About Me </h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<img src="assets/images/Samoan_Athlete_FJT.JPG"/ alt="FJT">
+							<p>
+							My very first video game was Shadow of the Colossus. A magnificent adventure that follows a nameless swordsman vying to ressurect his deceased love by embarking upon the impossible quest to slay 16 monster collosi. Captivated by the gripping story, the elegant beasts, and the grougeous landscape, I knew there had to be more that could offer this same realm of escape and thrill. 
+							<br/>
+							<br/>
+							Video gaming emerses users in impossible worlds, much better than any other medium available. Games like Assassin's Creed have brought historical events to the present and has given players the opportunity to experience first hand the thrills of many events. With this aspect in mind, I want to create a style of education that gears towards a regiment more suitable for us tactile/kinestetic learners. Taking this coding boot camp is the first step to cultivating/developing the skills that I need in order to achieve my dream. 
+							</p>
+						</div>
+					</div>
+				</section>
+				<div class="col-md-4">
+					<aside class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<h1> Connect with Me </h1>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<nav class="navigation">
+										<ul class="nav nav-tabs row">
+											<li role="presentation" class="col-md-4"><a href="https://github.com/jtogiaso" target="_blank">
+												<img src="assets/images/github_128.png" alt="Github" class="img-responsive" />
+											</a></li>
+											<li role="presentation" class="col-md-4"><a href="https://www.linkedin.com/in/fiaalii-f-togiaso-24a579147/" target="_blank">
+												<img src="assets/images/linkedIn.png" alt="LinkedIn" class="img-responsive"/>
+											</a></li>
+											<li role="presentation" class="col-md-4"><a href="https://meta.stackoverflow.com/users/8351976/kitiona49" target="_blank">
+												<img src="assets/images/stackOverflow.png" alt="Stacked Overflow" class="img-responsive"/>
+											</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
 					</aside>
 				</div>
-			</div>
-		</main>
-		<footer>
-			<div class="fullWrapper">
-				<div class="footerWords">
-					© 2017 Fiaalii F Togiaso
+			</main>
+			<footer class="row footer navbar-fixed-bottom">
+				<div class="container">
+					<div class="col-md-12 text-center" style="border: 1px solid red; background: green">
+						<h1> © 2017 Fiaalii F Togiaso </h1>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 	</body>
 </html>

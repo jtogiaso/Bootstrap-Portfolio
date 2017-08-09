@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<head><!-- 
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
 		<title>Meet Me: Fiaalii</title>
 	</head>
 	<body>
-		<header class="mainHeaderStyle">
-			<div class="fullWrapper">
-				<div class="namePlate">Fiaalii "JT" Togiaso</div>
-				<ul class="siteLegend">
-					<li><a href="index.html">About</a></li>
-					&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-					<li><a href="portfolio.html">Portfolio</a></li>
-					&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</header>
-		<main class="mainBody">
-			<div class="fullWrapper">
-				<div class="contentWrapper">
-					<section class="mainContent"> 
-						<header class="mainContentHeader"> Contact </header>
-						<br/>
-						<h2>Name</h2>
-		  				<input type="text" class="inputPar" placeholder="Your Name Here" />
-						<h2>Email</h2>
-		  				<input type="text" class="inputPar" placeholder="Your Email Here"/>
-						<h2>Message</h2>
-		  				<textarea type="text" class="messageBox inputPar" placeholder="Your Message Here"></textarea> 
-		  				<button>Submit</button>
-					</section>
+		<div class="container">
+			<header class="row" style="border: 1px solid red; background: maroon">
+				<div class="col-md-4" style="border: 1px solid purple; background: orange">
+					<h1 class="jumbotron text-center">Fiaalii "JT" Togiaso
+					</h1>
 				</div>
-				<div class="asideWrapper">
-					<aside class="connectWithMe">
-						<header class="asideHeader"> Connect with Me </header>
-						<ul class="connectOptions">
-							<li>
-								<a href="https://github.com/jtogiaso" target="_blank">
-									<img src="assets/images/github_128.png" alt="Github"/>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.linkedin.com/in/fiaalii-f-togiaso-24a579147/" target="-blank">
-									<img src="assets/images/linkedIn.png" alt="LinkedIn"/>
-								</a>
-							</li>
-							<li>
-								<a href="https://meta.stackoverflow.com/users/8351976/kitiona49" target="_blank">
-									<img src="assets/images/stackOverflow.png"/>
-								</a>
-							</li>
+				<div class="col-md-4" style="border: 1px solid purple; background: turquoise">
+				</div>
+				<div class="col-md-4" style="border: 1px solid purple; background: tan">
+					<nav role="navigation">
+						<ul class="nav nav-tabs">
+							<li role="presentation"><a href="index.html">About</a></li>
+					  		<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
+					  		<li role="presentation"><a href="contact.html">Contact</a></li>
 						</ul>
+					</nav>
+				 </div>
+			</header>
+			<main class="row">
+				<section class="col-md-8">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="jumbotron"> Contact </h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Name</h2>
+			  				<input type="text" class="inputPar" placeholder="Your Name Here" />
+			  			</div>
+			  		</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Email</h2>
+			  				<input type="text" class="inputPar" placeholder="Your Email Here"/>
+			  			</div>
+			  		</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Message</h2>
+			  				<textarea type="text" class="messageBox inputPar" placeholder="Your Message Here"></textarea>
+			  			</div>
+			  		</div>
+					<div class="row">
+						<div class="col-md-12">
+			  				<button>Submit</button>
+		  				</div>
+					</div>
+				</section>
+				<div class="col-md-4">
+					<aside class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-12">
+									<h1> Connect with Me </h1>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<nav class="navigation">
+										<ul class="nav nav-tabs row">
+											<li role="presentation" class="col-md-4"><a href="https://github.com/jtogiaso" target="_blank">
+												<img src="assets/images/github_128.png" alt="Github" class="img-responsive" />
+											</a></li>
+											<li role="presentation" class="col-md-4"><a href="https://www.linkedin.com/in/fiaalii-f-togiaso-24a579147/" target="_blank">
+												<img src="assets/images/linkedIn.png" alt="LinkedIn" class="img-responsive"/>
+											</a></li>
+											<li role="presentation" class="col-md-4"><a href="https://meta.stackoverflow.com/users/8351976/kitiona49" target="_blank">
+												<img src="assets/images/stackOverflow.png" alt="Stacked Overflow" class="img-responsive"/>
+											</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
 					</aside>
 				</div>
-			</div>
-		</main>
-		<footer>
-			<div class="fullWrapper">
-				<div class="footerWords">
-					© 2017 Fiaalii F Togiaso
+			</main>
+			<footer class="row footer navbar-fixed-bottom">
+				<div class="container">
+					<div class="col-md-12 text-center" style="border: 1px solid red; background: green">
+						<h1> © 2017 Fiaalii F Togiaso </h1>
+					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</div>
 	</body>
 </html>
